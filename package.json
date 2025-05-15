@@ -1,0 +1,22 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/przytop/goit-node-hw-01",
+  "license": "ISC",
+  "author": "Pawel Przytomski",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "nanoid": "^5.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
